@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CHG_PLAYER_FAC
+#define CHG_PLAYER_FAC
+
 class PlayerFac
 {
 public:
@@ -6,3 +8,4 @@ public:
 	~PlayerFac();
 };
 
+#endif

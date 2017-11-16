@@ -1,8 +1,14 @@
-#pragma once
+#ifndef CHG_PLAYER_MAG
+#define CHG_PLAYER_MAG
+
 class PlayerMag
 {
-public:
 	PlayerMag();
+	PlayerMag(const PlayerMag &);
+	PlayerMag& operator=(const PlayerMag&);
 	~PlayerMag();
+public:
+	static PlayerMag& get();
 };
 
+#endif

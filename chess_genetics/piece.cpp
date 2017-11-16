@@ -1,22 +1,11 @@
-#include "piece.h"
+#include "stdafx.h"
+#include "Piece.h"
 
+Piece::Piece(){}
 
+Piece::~Piece(){}
 
-piece::piece()
+size_t Piece::getPoints()
 {
-}
-
-
-piece::~piece()
-{
-}
-
-
-Piece::Piece()
-{
-}
-
-
-Piece::~Piece()
-{
+	return points;
 }

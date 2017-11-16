@@ -4,9 +4,13 @@
 
 Bishop::Bishop()
 {
+	this->points = 3;
 }
 
+Bishop::~Bishop(){}
 
-Bishop::~Bishop()
+bool Bishop::checkMove(const posytion p_to_move, const ch_board * b)
 {
+	//TODO:
+	return false;
 }

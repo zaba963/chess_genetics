@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CHG_PIECE_PAWN
+#define CHG_PIECE_PAWN
+
 class Player
 {
 public:
@@ -6,3 +8,4 @@ public:
 	~Player();
 };
 
+#endif

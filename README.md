@@ -1,6 +1,6 @@
-# chess_genetics
+# Chess genetics
 
-Neural objects learning to play chess
+Neural objects learning to play chess.
 
 ## Contributors
 

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CHG_BOARD
+#define CHG_BOARD
+
 class Board
 {
 public:
@@ -6,3 +8,4 @@ public:
 	~Board();
 };
 
+#endif

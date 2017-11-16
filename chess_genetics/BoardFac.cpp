@@ -10,3 +10,9 @@ BoardFac::BoardFac()
 BoardFac::~BoardFac()
 {
 }
+
+Board* BoardFac::creteBoard()
+{
+	//TODO:
+	return new Board();
+}

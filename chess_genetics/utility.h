@@ -1,6 +1,8 @@
 #ifndef CHG_UTILITY
 #define CHG_UTILITY
 
+enum player_type{genetics, normal};
+
 enum piece_type {B, K, k, Q, p, R, n};
 enum ch_color {white, black};
 
